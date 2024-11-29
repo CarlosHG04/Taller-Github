@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Tenis Deportivos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/200/nike.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>¡Compra los mejores Tenis Deportivos!</h1>
+            <p>Encuentra el par perfecto para tu rendimiento deportivo.</p>
+            <button onclick="window.location.href='#productos'">Ver Productos</button>
+        </div>
+    </section>
+
+    <section id="productos">
+        <h2>Productos Destacados</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://mms.img.susercontent.com/d71b7a1ad1770d1cab75804bc0f2b0d2_tn" alt="Tenis 1">
+                <h3>Tenis Nike Air Zoom</h3>
+                <p>Precio: $100</p>
+                <button class="buy-btn" onclick="alert('Producto agregado al carrito')">Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/51hlcSodqEL._AC_.jpg" alt="Tenis 2">
+                <h3>Adidas Ultraboost</h3>
+                <p>Precio: $120</p>
+                <button class="buy-btn" onclick="alert('Producto agregado al carrito')">Comprar</button>
+            </div>
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgpFicOFybIu1TWW17TpeBaQrM0f8VwAYzRg&s" alt="Tenis 3">
+                <h3>Puma RS-X3</h3>
+                <p>Precio: $110</p>
+                <button class="buy-btn" onclick="alert('Producto agregado al carrito')">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="ofertas">
+        <h2>Ofertas Especiales</h2>
+        <p>¡Aprovecha nuestras ofertas y descuentos exclusivos!</p>
+        <button onclick="window.location.href='#productos'">Ver Ofertas</button>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Introduce tu correo" required>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tienda de Tenis Deportivos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
