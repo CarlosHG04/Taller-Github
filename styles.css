@@ -31,6 +31,9 @@ header nav ul li a {
     font-size: 18px;
 }
 
+/* 
+    estilos del banner principal
+*/
 .hero {
     position: relative;
     background: url('https://media.revistagq.com/photos/63f5e18c29543f9222599b30/master/pass/nike-running-shoes-streakfly-invincible.jpg') no-repeat center center/cover;
